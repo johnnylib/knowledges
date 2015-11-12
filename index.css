@@ -1,0 +1,563 @@
+#topSection>img {
+    width: 100%;
+}
+
+
+/*read all buttom*/
+
+.read-all-button {
+    width: 45%;
+    height: 35px;
+    line-height: 35px;
+    margin: 30px auto;
+    border-radius: 6px;
+    border: 1px #727171 solid;
+    font-size: 16px;
+    font-weight: lighter;
+    color: #118bf7;
+    display: block;
+}
+
+
+/**
+ * basic info
+ */
+
+#productName {
+    width: 69%;
+    padding: 10px 0px;
+    margin-bottom: 20px;
+    border-right: 1px #dcdddd solid;
+    text-align: left;
+    font-size: 20px;
+    display: inline-block;
+}
+
+#topOverview {
+    width: 29%;
+    padding: 5px 0px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+#topOverview>img {
+    width: 80%;
+}
+
+#topOverview>*:nth-child(2) {
+    font-size: 14px;
+}
+
+#topOverview>*:nth-child(3) {
+    font-size: 12px;
+}
+
+
+/**
+ * detail
+ */
+
+.main-titles {
+    font-weight: normal;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#preup>article {
+    padding: 3%;
+    margin-bottom: 20px;
+    border: 1px #f9c5ca solid;
+    text-align: left;
+}
+
+#preup>p,
+#preup>article>p,
+#productDetail>p {
+    text-align: left;
+    margin-left: -8px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+#preup>article>p {
+    margin-left: -11px;
+}
+
+#consualt>header>p,
+#preup>ul,
+#preup>article>ul,
+#productDetail>ul {
+    text-align: justify;
+}
+
+#consualt>header>p,
+#preup>ul>li,
+#preup>article>ul>li,
+#productDetail>ul>li {
+    margin-bottom: 3px;
+    color: #9fa0a0;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+#preup>ul>li>*,
+#productDetail>ul>li>* {
+    display: inline-block;
+}
+
+#preup>ul>li>p,
+#preup>article>ul>li,
+#productDetail>ul>li>p {
+    width: 93%;
+}
+
+#preup>ul>li>label,
+#productDetail>ul>li>label {
+    width: 3%;
+    text-align: left;
+    vertical-align: top;
+}
+
+
+/**
+ * customer service
+ */
+
+#consualt {
+    margin-bottom: 15%;
+}
+#consualt>a{
+    display: block;
+}
+.service-call {
+    width: 90%;
+    margin: 30px auto;
+    text-align: center;
+    font-size: 14px;
+}
+
+.service-call>* {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.service-call>img {
+    width: 5%;
+    margin: 0 2%;
+}
+
+#consualt:after {
+    content: "";
+    width: 100%;
+    min-height: 50px;
+    display: block;
+}
+
+#buyNow {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    z-index: 50;
+    bottom: 0;
+}
+
+#buyNow>a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    font-size: 18px;
+    color: #fff;
+}
+
+#purchase-page {
+    width: 100%;
+    height: 100%;
+    border-top: 1px #9fa0a0 solid;
+    position: fixed;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: none;
+    z-index: 110;
+}
+
+#purchase-modal {
+    height: 85%;
+    width: 100%;
+    background-color: #fff;
+    position: relative;
+    z-index: 150;
+}
+
+.purchase-sections {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.purchase-sections>h2 {
+    margin: 20px auto;
+    padding-top: 10px;
+    text-align: left;
+    font-weight: lighter;
+}
+
+
+/**
+ * select type
+ */
+
+#typeSelectSection .type-illu {
+    color: #9fa0a0;
+    text-align: justify;
+    font-size: 14px;
+}
+
+.type-sub-div:nth-child(2) {
+    border-bottom: 1px #f4f4f4 solid;
+}
+
+.ticket-type-wrapper {
+    text-align: left;
+}
+
+.ticket-type {
+    width: 120px;
+    height: 45px;
+    line-height: 45px;
+    margin: 20px 20px 20px 0px;
+    border: 1px #c9caca solid;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.unavailable {
+    color: #c9caca;
+}
+
+.selectedType {
+    border-color: #ed5564;
+    color: #ed5564;
+}
+
+
+/**
+ * change amount
+ */
+
+#amountSelectSection {
+    position: relative;
+}
+
+#amountSelectSection>div {
+    width: 40%;
+    height: 45px;
+    line-height: 45px;
+    font-size: 0px;
+    border: 1px #c9caca solid;
+    position: absolute;
+    top: 50px;
+    right: 20px;
+}
+
+#amountSelectSection>div>span {
+    width: 32%;
+    font-size: 25px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#amountSelectSection>div>span>img {
+    width: 45%;
+    height: 100%;
+    line-height: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+#buyAmount {
+    border-left: 1px #c9caca solid;
+    border-right: 1px #c9caca solid;
+}
+
+
+/**
+ * confirm
+ */
+
+#confirmSection {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    position: absolute;
+    border-top: 1px #c9caca solid;
+    bottom: 0;
+    font-size: 0px;
+    background-color: #ed5564;
+}
+
+#confirmSection>* {
+    height: 100%;
+    font-size: 18px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+#confirmSection>p {
+    width: 25%;
+    background-color: #fff;
+}
+
+#confirmSection>a {
+    width: 75%;
+    color: #fff;
+}
+
+
+/*
+* iphone 6 
+*/
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) {
+    .main-titles {
+        font-size: 20px;
+        margin-bottom: 24px;
+    }
+    #productDetail>ul>li {
+        line-height: 18px;
+        font-size: 14px;
+    }
+    .read-all-button {
+        height: 40px;
+        line-height: 40px;
+        font-size: 18px;
+    }
+}
+
+
+/**
+ * iphone 6 plus
+ * @param  {[type]} min-device-width: 375px)        and (max-device-width: 667px) and (orientation: portrait [description]
+ * @return {[type]}                   [description]
+ */
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: portrait) {
+    .main-titles {
+        font-size: 22px;
+        margin-bottom: 24px;
+    }
+    #productName {
+        font-size: 22px;
+    }
+    #preup>p,
+    #productDetail>header>p {
+        font-size: 18px;
+    }
+    #consualt>header>p,
+    #preup>article>ul>li,
+    #preup>ul>li,
+    #productDetail>ul>li {
+        line-height: 22px;
+        font-size: 18px;
+    }
+    #topOverview>*:nth-child(2) {
+        font-size: 18px;
+    }
+    #topOverview>*:nth-child(3) {
+        font-size: 16px;
+    }
+    #preup>p,
+    #preup>article>p,
+    #productDetail>p {
+        font-size: 20px;
+    }
+    .service-call {
+        width: 90%;
+        margin: 20px auto;
+        text-align: center;
+        font-size: 16px;
+    }
+    #typeSelectSection .type-illu {
+        font-size: 20px;
+    }
+    .ticket-type {
+        height: 60px;
+        line-height: 60px;
+    }
+    #confirmSection {
+        height: 60px;
+        line-height: 60px;
+    }
+    #confirmSection>* {
+        font-size: 22px;
+    }
+}
+
+
+/**
+ * ipad
+ * @param  {[type]} min-device-width: 768px)        and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2 [description]
+ * @return {[type]}                   [description]
+ */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    #topOverview>img {
+        width: 55%;
+    }
+    .main-titles {
+        font-size: 36px;
+        margin-bottom: 24px;
+    }
+    #productName {
+        font-size: 41px;
+    }
+    #preup>p,
+    #preup>article>p,
+    #productDetail>p {
+        font-size: 26px;
+    }
+    #consualt>header>p,
+    #preup>article>ul>li,
+    #preup>ul>li,
+    #productDetail>ul>li {
+        line-height: 27px;
+        font-size: 24px;
+    }
+    #topOverview>*:nth-child(2) {
+        font-size: 25px;
+    }
+    #topOverview>*:nth-child(3) {
+        font-size: 20px;
+    }
+    .read-all-button {
+        height: 58px;
+        line-height: 58px;
+        font-size: 32px;
+    }
+    #buyNow {
+        height: 80px;
+        line-height: 80px;
+    }
+    #buyNow>a {
+        font-size: 26px;
+        color: #fff;
+    }
+    .service-call {
+        width: 90%;
+        margin: 20px auto;
+        text-align: center;
+        font-size: 20px;
+    }
+    #typeSelectSection .type-illu {
+        font-size: 30px;
+    }
+    .ticket-type {
+        height: 80px;
+        width: 150px;
+        line-height: 80px;
+        font-size: 20px;
+    }
+    #confirmSection {
+        height: 70px;
+        line-height: 70px;
+    }
+    #confirmSection>* {
+        font-size: 26px;
+    }
+    .purchase-sections>h2 {
+        font-size: 36px;
+    }
+    #amountSelectSection>div {
+        height: 70px;
+        line-height: 70px;
+    }
+    #amountSelectSection>div>span>img {
+        width: 32%;
+    }
+}
+
+
+/**
+ * ipad:landscpae;
+ * @param  {[type]} min-device-width: 768px)        and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2 [description]
+ * @return {[type]}                   [description]
+ */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    #topOverview>img {
+        width: 55%;
+    }
+    .main-titles {
+        font-size: 36px;
+        margin-bottom: 24px;
+    }
+    #productName {
+        font-size: 41px;
+    }
+    #preup>p,
+    #preup>article>p,
+    #productDetail>p {
+        font-size: 26px;
+    }
+    #consualt>header>p,
+    #preup>article>ul>li,
+    #preup>ul>li,
+    #productDetail>ul>li {
+        line-height: 27px;
+        font-size: 24px;
+    }
+    #topOverview>*:nth-child(2) {
+        font-size: 25px;
+    }
+    #topOverview>*:nth-child(3) {
+        font-size: 20px;
+    }
+    .read-all-button {
+        height: 58px;
+        line-height: 58px;
+        font-size: 32px;
+    }
+    #buyNow {
+        height: 80px;
+        line-height: 80px;
+    }
+    #buyNow>a {
+        font-size: 26px;
+        color: #fff;
+    }
+    .service-call {
+        width: 90%;
+        margin: 20px auto;
+        text-align: center;
+        font-size: 20px;
+    }
+    .service-call>img {
+        width: 3%;
+    }
+    #typeSelectSection .type-illu {
+        font-size: 30px;
+    }
+    .ticket-type {
+        height: 80px;
+        width: 150px;
+        line-height: 80px;
+        font-size: 20px;
+    }
+    #confirmSection {
+        height: 70px;
+        line-height: 70px;
+    }
+    #confirmSection>* {
+        font-size: 26px;
+    }
+    .purchase-sections>h2 {
+        font-size: 36px;
+    }
+    #amountSelectSection>div {
+        height: 70px;
+        line-height: 70px;
+    }
+    #amountSelectSection>div>span>img {
+        width: 32%;
+    }
+}
